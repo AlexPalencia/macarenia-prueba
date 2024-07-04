@@ -1,0 +1,47 @@
+# Virtual environment
+/venv/
+
+# Compiled Python files
+*.pyc
+*$py.class
+
+# Compiled Python files from coverage report
+.coverage*
+
+# Directory for Python bytecode
+__pycache__/
+
+# Local development settings (if you have any)
+/local_settings.py
+
+# Database
+/db.sqlite3
+
+# Media files
+/media/
+
+# Build artifacts
+build/
+dist/
+
+# Static files
+/staticfiles/
+
+# IDE specific files (if you're using any)
+.vscode/
+.idea/
+
+# Log files
+*.log
+logs/
+
+# Environment variable file (if you're using one)
+.env
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# Migrations
+**/migrations/
+**/migrations/*.py
+!**/migrations/__init__.py
